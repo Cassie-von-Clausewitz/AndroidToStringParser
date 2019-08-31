@@ -1,5 +1,4 @@
-[![Release](https://jitpack.io/v/kylealanr/AndroidToStringParser.svg)]
-(https://jitpack.io/#kylealanr/AndroidToStringParser)
+![Release](https://jitpack.io/v/kylealanr/AndroidToStringParser.svg)
 
 # Overview
 
