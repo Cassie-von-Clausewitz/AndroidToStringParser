@@ -1,3 +1,8 @@
+[![Release](https://jitpack.io/v/kylealanr/AndroidToStringParser.svg)]
+(https://jitpack.io/#kylealanr/AndroidToStringParser)
+
+# Overview
+
 This little library parses the output of the Android View.toString() method. As we can see from the implementation
 of `toString` on the `View` class we can see that the method returns some interesting info from it's `toString` override
 
@@ -119,4 +124,20 @@ We can use this knowledge to parse something like this...
 }
 ```
 
-library coming soon
+# Adding to a Project
+
+```gradle
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+```gradle
+	dependencies {
+	        implementation 'com.github.kylealanr:AndroidToStringParser:Tag'
+	}
+
+```
